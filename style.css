@@ -1,0 +1,121 @@
+:root{
+    --darkBlue: #0A3871;
+    --gray: #E5E5E5;
+    --lightBlue: #F3F5FC;
+    --graySecondary: #495057;
+    --grayTerceario: #343A40;
+    --white: #fff;
+    --blueDarkSecondary: #67808E;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--lightBlue);
+}
+
+header{
+    width: 100%;
+    min-width: 280px;
+    height: 80px;
+}
+
+.navbar{
+    padding: 24px 327px 0px 16px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.main{
+    padding: 40px 16px 0px;
+}
+
+.main textarea{
+    width: 100%;
+    height: 300px;
+    border: none;
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--lightBlue);
+}
+
+.main textarea::placeholder{
+    color: var(--darkBlue);
+}
+
+.main_precaucion{
+    color: var(--graySecondary);
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+
+.main_buttons{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.main_buttons button{
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    font-weight: 400;
+    border: 1px solid var(--darkBlue);
+    font-size: 1.6rem;
+}
+
+.main_buttons button:nth-child(1){
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+
+.main_buttons button:nth-child(2){
+    background-color: var(--white);
+    color: var(--darkBlue);
+}
+
+.main_resultado{
+    width: 327px;
+    height: 186px;
+    margin: 16px auto;
+    background-color: var(--white);
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_resultado h2{
+    font-size: 2.4rem;
+    color: var(--grayTerceario);
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_resultado p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--graySecondary);
+    text-align: center;
+}
+
+.main_resultado_image{
+    display: none;
+}
