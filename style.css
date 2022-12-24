@@ -87,6 +87,7 @@ main{
     font-weight: 400;
     border: 1px solid var(--darkBlue);
     font-size: 1.6rem;
+    cursor: pointer;
 }
 
 .main_buttons button:nth-child(1){
@@ -148,6 +149,7 @@ main{
     background-color: var(--white);
     margin-left: 25px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .main_resultado_button textarea{
