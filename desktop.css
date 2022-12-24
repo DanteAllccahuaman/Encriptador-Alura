@@ -21,5 +21,9 @@ main{
 }
 
 .main_resultado_image{
-    display: contents;
+    display: block;
+}
+
+.main_resultado_button button{
+    width: 336px;
 }
